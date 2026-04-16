@@ -1,6 +1,7 @@
 # Import python packages.
 import streamlit as st
 from snowflake.snowpark.functions import col
+import requests  
 
 #my_dataframe = session.table("smoothies.public.fruit_options")
 #st.dataframe(data=my_dataframe, use_container_width=True)
@@ -49,4 +50,4 @@ if ingredients_list :
         
         st.success('Your Smoothie is ordered!', icon="✅")
 
-import requests  
+
